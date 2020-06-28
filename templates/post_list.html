@@ -8,7 +8,6 @@
 
       <h5>{{ post.created_date }}</h5>
       <div>{{post.text}}</div>
-      <p>I just wanted to teach others how Korean alphabets work and what they look like..</p>
            <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.comments.count}}</a>
       <p></p>
     </div>
